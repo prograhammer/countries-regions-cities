@@ -56,6 +56,7 @@
 | longitude     | DECIMAL(11,8) NOT NULL                       | City Longitude                                |
 
 
+
 ## License for MaxMind WorldCities Database
 
 OPEN DATA LICENSE for MaxMind WorldCities and Postal Code Databases
