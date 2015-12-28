@@ -24,7 +24,7 @@
 - 230 records
 
 | Column        | Type                                         | Description                      |
-| ------------- |:--------------------------------------------:| :-------------------------------:|
+| ------------- |:---------------------------------------------| :-------------------------------:|
 | id            | SMALLINT(5) UNSIGNED NOT NULL AUTO_INCREMENT | Primary Key for a Country        |
 | name          | VARCHAR(255) NOT NULL                        | Country name                     |
 | code          | VARCHAR(10) NOT NULL                         | Country abbreviation             |
@@ -35,7 +35,7 @@
 - 3,888 records
 
 | Column        | Type                                         | Description                            |
-| ------------- |:--------------------------------------------:| :--------------------------------------|
+| ------------- |:---------------------------------------------| :--------------------------------------|
 | id            | INT(11) UNSIGNED NOT NULL AUTO_INCREMENT     | Primary Key for a Region               |
 | name          | VARCHAR(255) NOT NULL                        | Region name                            |
 | code          | VARCHAR(10) NOT NULL                         | For USA: State/Territory abbreviation  |
@@ -47,7 +47,7 @@
 - 2,790,951 records
 
 | Column        | Type                                         | Description                                   |
-| ------------- |:--------------------------------------------:| :---------------------------------------------|
+| ------------- |:---------------------------------------------| :---------------------------------------------|
 | id            | INT(11) UNSIGNED NOT NULL AUTO_INCREMENT     | Primary Key for a City                        |
 | name          | VARCHAR(255) NOT NULL                        | City name                                     |
 | region_id     | INT(11) UNSIGNED NOT NULL                    | Foreign key to Regions table (States for USA) |
