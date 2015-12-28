@@ -24,7 +24,7 @@
 - 230 records
 
 | Column        | Type                                         | Description                      |
-| ------------- |:---------------------------------------------| :-------------------------------:|
+| ------------- |:---------------------------------------------| :--------------------------------|
 | id            | SMALLINT(5) UNSIGNED NOT NULL AUTO_INCREMENT | Primary Key for a Country        |
 | name          | VARCHAR(255) NOT NULL                        | Country name                     |
 | code          | VARCHAR(10) NOT NULL                         | Country abbreviation             |
