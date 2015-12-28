@@ -55,7 +55,7 @@
 | latitude      | DECIMAL(10,8) NOT NULL                       | City Latitude                                 |
 | longitude     | DECIMAL(11,8) NOT NULL                       | City Longitude                                |
 
-
+<br><br>
 
 ## License for MaxMind WorldCities Database
 
