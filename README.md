@@ -60,9 +60,9 @@
 
 # MongoDB collection created by joining of mysql tables listed above. 
 
-#Description
+## Description
 
-*MongoDB supports query operations on geospatial data. You could get more information from https://docs.mongodb.com/manual/geospatial-queries *
+*MongoDB supports query operations on geospatial data. You could get more information from https://docs.mongodb.com/manual/geospatial-queries*
 
 
 ## Installation
@@ -91,7 +91,7 @@
 | country       | String                                       | Country name                                  |
 | location      | GeoJSON Point                                | Location data                                 |
 
-You could find more information about GeoJsonPoint on the https://docs.mongodb.com/manual/reference/geojson/#point
+*You could find more information about GeoJsonPoint on the https://docs.mongodb.com/manual/reference/geojson/#point*
 
 <br><br>
 
