@@ -57,6 +57,45 @@
 
 <br><br>
 
+
+# MongoDB collection created by joining of mysql tables listed above. 
+
+## Description
+
+*MongoDB supports query operations on geospatial data. You could get more information from https://docs.mongodb.com/manual/geospatial-queries*
+
+
+## Installation
+
+*Follow the steps below to import the collection.*
+
+**Linux/OSX command line:**
+    
+    $ gunzip world.json.gz
+    $ mongoimport --db mydatabase --collection mycollection --file world.json
+
+
+**Windows**
+
+- Install 7zip (so you can extract gzip files)
+- Extract world.json.gz and then use the same mongoimport command lines as Linux above on the `world.json` file
+
+## Data Structure of collection
+
+
+| Field         | Type                                         | Description                                   |
+| ------------- |:---------------------------------------------| :---------------------------------------------|
+| _id           | ObjectId                                     | Unique key of collection                      |
+| name          | String                                       | City name                                     |
+| region        | String                                       | Region name                                   |
+| country       | String                                       | Country name                                  |
+| location      | GeoJSON Point                                | Location data                                 |
+
+*You could find more information about GeoJsonPoint on the https://docs.mongodb.com/manual/reference/geojson/#point*
+
+<br><br>
+
+
 ## License for MaxMind WorldCities Database
 
 OPEN DATA LICENSE for MaxMind WorldCities and Postal Code Databases
